@@ -168,7 +168,6 @@ a {
 }
 .hero .media-course {
   display: flex;
-
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -467,6 +466,171 @@ a {
 .countdown .countdown-list .desc {
   margin-top: 11px;
   color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+/* ========================feed-back========================== */
+.feedback {
+  margin-top: 227px;
+}
+.feedback .body {
+  position: relative;
+  padding: 37px 0;
+}
+.feedback blockquote {
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+  max-width: 419px;
+}
+.feedback .desc {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.feedback .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.feedback .desc::before {
+  margin-right: 5px;
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+.feedback-cta {
+  display: flex;
+  margin-left: -30px;
+  margin-top: 52px;
+}
+.feedback .cta-btn-group {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2ac9bf;
+}
+.feedback .cta-btn-group:hover {
+  opacity: 0.9;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  transition: 0.5s;
+}
+.feedback .av-fb {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.feedback .avar-fb-1 {
+  top: 0;
+  left: 635px;
+  width: 92px;
+  height: 92px;
+}
+.feedback .avar-fb-2 {
+  top: 0;
+  right: 0;
+  width: 110px;
+  height: 110px;
+}
+.feedback .avar-fb-3 {
+  top: 107px;
+  left: 764px;
+  width: 235px;
+  height: 235px;
+}
+.feedback .avar-fb-4 {
+  top: 258px;
+  left: 491px;
+}
+.feedback .avar-fb-5 {
+  bottom: 0;
+  left: 703px;
+}
+.feedback .avar-fb-6 {
+  top: 374px;
+  left: 1060px;
+}
+/* ==================admit================ */
+.admit {
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+.admit .heading-lv2 {
+  max-width: 420px;
+}
+.admit .desc {
+  margin-top: 18px;
+  max-width: 397px;
+  color: #767e7e;
+  font-size: 1.8rem;
+}
+.admit .admit-right {
+  margin-left: 420px;
+}
+.admit .admit-right a {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 600;
+}
+/* =======================================footer===================== */
+.footer {
+  background: #fff;
+}
+.footer .row-top {
+  padding-top: 131px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .column .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer .list li {
+  margin-top: 18px;
+}
+.footer .list li a {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+.footer .list-item5 a {
+  display: flex;
+  align-items: center;
+}
+.footer .list-item5 .social-icon {
+  margin-right: 9px;
+}
+.footer .copyright {
+  padding: 80px 0 50px;
+  color: #b0b5b4;
   text-align: center;
   font-size: 1.8rem;
   line-height: normal;
